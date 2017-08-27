@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/f1mesg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:background="#ff0"
+        android:text="I AM F1" />
+    <Button
+        android:id="@+id/f1test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F1Test1"
+
+        />
+    <Button
+        android:id="@+id/f1test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F1Test2"
+        />
+    <Button
+        android:id="@+id/f1test3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F1Test3"
+        />
+</LinearLayout>
